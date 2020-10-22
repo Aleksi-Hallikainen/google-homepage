@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+   }
+   
+   body{
+    width: 100%;
+    height: 100%;
+   }  
+   /* Find a way to make the links not be hidden, when the browser is resized */
+nav li{ 
+    position: relative;
+    left: 85%;
+    right: 20%;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 7px;
+}
+
+li{
+    display: inline;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header img{
+    height: 24px;
+    border-radius: 60px;
+}
+main img{
+    height: 100px;
+    margin: 200px;
+    position: relative;
+    left: 40%;
+    transform: translate(-50%, 0);
+}
+
+body{
+    background-color: rgba(51, 50, 50, 0.986);
+}
+
+.searchbar{
+    position: relative;
+    left: 19%;
+    bottom: 70px;   
+}
+
+input{
+    border-radius: 50px;
+    width: 490px;
+}
